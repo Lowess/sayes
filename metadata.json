@@ -1,0 +1,37 @@
+{
+        "Cluster": "va-mle--dev",
+        "ContainerInstanceARN": "arn:aws:ecs:us-east-1::container-instance/2728d44f-6852-4eb8-b554-627c3ff0ca93",
+        "TaskARN": "arn:aws:ecs:us-east-1::task/e974cb5f-f889-4006-aa98-bdd5559afaa2",
+        "TaskDefinitionFamily": "nginx-sayes",
+        "TaskDefinitionRevision": "9",
+        "ContainerID": "8659abc64ab776d6e1c41715644f8433476a87a5b09f92d833ae816b05329b9d",
+        "ContainerName": "sayes",
+        "DockerContainerName": "/ecs-nginx-sayes-9-sayes-dac1e0fcaf94b2dc4100",
+        "ImageID": "sha256:e8e09d54293fa410c22671b19a498666f013c0f9abf53b12616e685abad88a3c",
+        "ImageName": "lowess/sayes",
+        "PortMappings": [
+                {
+                        "ContainerPort": 80,
+                        "HostPort": 32783,
+                        "BindIp": "0.0.0.0",
+                        "Protocol": "tcp"
+                },
+                {
+                        "ContainerPort": 81,
+                        "HostPort": 32781,
+                        "BindIp": "0.0.0.0",
+                        "Protocol": "tcp"
+                }
+        ],
+        "Networks": [
+                {
+                        "NetworkMode": "bridge",
+                        "IPv4Addresses": [
+                                "172.17.0.6"
+                        ]
+                }
+        ],
+        "MetadataFileStatus": "READY",
+        "AvailabilityZone": "us-east-1b",
+        "HostPrivateIPv4Address": "10.201.30.235"
+}
